@@ -4,17 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <style>
+        .container{
+            display:grid;
+            grid-template-rows: 1fr,1fr;
+            grid-template-columns: 700px,1fr;
+            background-color:lightskyblue;
+            margin: 0px;
+            padding: 0px;
+        
+        }
+        .title{
+            background-color: aliceblue;
+        }
+        .footer{
+            background-color:aliceblue;
+            text-align: center;
+            color:red;
+        }
+    </style>
 </head>
 <body>
-    <h1>Sarthak Guleria</h1>
-    <img src ="file:///D:/mypics/Paonta%20&%20Renuka/IMG_0380.JPG" height = "100" width="100" />
-    <h2>Summary</h2>
-    <h3><p>To work in a firm with a professional work driven
+    <div class = "container">
+       <div class ="title">
+        <h1>Sarthak Guleria</h1>
+        <img src ="mypic.JPG" height = "100" width="100" />
+        <h2>Summary</h2>
+        <h3><p>To work in a firm with a professional work driven
         environment where I can utilize and apply my
         knowledge, skills which would enable me as a
         fresh graduate to grow while fulfilling
         organizational goals.</p></h3>
         <hr />
+       </div>
+        
         <h2>Education</h2>
         <ul>
             <li>B.Tech (Computer Science
@@ -65,6 +88,11 @@
         <ul>
             <li>Udemy</li>
         </ul>
+        <h3>Full Stack Web Development</h3>
+        <ul>
+            <li>Present</li>
+            <li>Udemy</li>
+        </ul>
         <h3>Python</h3>
         <ul>
             <li>Udemy</li>
@@ -77,12 +105,14 @@
         <li>OOPS</li>
         <li>MYSQL</li>
         <li>HTML</li>
+        <li>CSS</li>
     </ul>
     <h2>Personal Projects</h2>
     <ul>
         <li>Attendance Management System Using Java</li>
         <li>Saved Wi-Fi Password Cracker Using Python.</li>
         <li>Tic-Tac-Toe Game Using Python.</li>
+        <li>My Resume Website</li>
     </ul>
     <h2>Certificates</h2>
     <ul>
@@ -132,10 +162,14 @@
             standard.
             </li>
     </ul>
-    <hr/>
-    <footer><h3>
-        <p> Copyright © 2023 Football History Archives. All Rights Reserved.</p>
-    </footer></h3>
-    <h3><a href ="contact.html">Contact</a></h3>
+    
+    <div class = "footer">
+        <hr/>
+        <footer><h3>
+        <p> Copyright © 2023. All Rights Reserved.</p>
+        </footer></h3>
+        <h3><a href ="contact.html">Contact</a></h3>
+   </div>
+</div>
 </body>
 </html>
